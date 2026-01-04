@@ -1,8 +1,10 @@
-#include<iostream>
+#include <iostream>
+#include <locale.h>
 int main()
 {
+    setlocale(LC_ALL, "rus");
     double n, m, s = 0, f = 1, a = 0, b = 1, y = 0, x = 0, S = 0, k = 1;
-    std::cout << std::endl << "VVedite chisla m & n" << std::endl;
+    std::cout << std::endl << "Введите числа m и n " << std::endl;
     while (true)
     {
         if (std::cin >> m >> n) {
@@ -17,7 +19,7 @@ int main()
         }
     }
     int nom;
-    std::cout << std::endl << "VVedite nomer case" << std::endl;
+    std::cout << std::endl << "Введите номер случая" << std::endl;
     std::cin >> nom;
     while(nom!=0)
     {
@@ -55,7 +57,7 @@ int main()
                 S = S + k;
             }; std::cout <<S << std::endl; break;
         }
-        std::cout <<std::endl<< "VVedite case" << std::endl;
+        std::cout <<std::endl<< "Введите следующий номер случая" << std::endl;
         std::cin >> nom;
     }
     return 0;
