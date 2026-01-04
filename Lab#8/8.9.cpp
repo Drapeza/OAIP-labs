@@ -356,8 +356,8 @@ void find() {
                         std::cout << p[i].fam << " " << p[i].name << " " << p[i].otch << std::endl
                             << " Адрес: " << p[i].adress << " " << std::endl
                             << " Карта: " << p[i].card << std::endl
-                            << " Полис: " << p[i].pol << std::endl
-                            << "---------------------------------------" << std::endl;
+                            << " Полис: " << p[i].pol << std::endl;
+                            std::cout << std::endl << "---------------------------------------------------------------" << std::endl;
                         f = 1;
                     }
                 }
@@ -428,8 +428,8 @@ void sort()
                 std::cout << p[i].fam << " " << p[i].name << " " << p[i].otch << std::endl
                     << " Адрес: " << p[i].adress << " " << std::endl
                     << " Карта: " << p[i].card << std::endl
-                    << " Полис: " << p[i].pol << std::endl
-                    << "---------------------------------------" << std::endl;
+                    << " Полис: " << p[i].pol << std::endl;
+                    std::cout << std::endl << "---------------------------------------------------------------" << std::endl;
             }
 
             break;
@@ -451,8 +451,8 @@ void sort()
                 std::cout << p[i].fam << " " << p[i].name << " " << p[i].otch << std::endl
                     << " Адрес: " << p[i].adress << " " << std::endl
                     << " Карта: " << p[i].card << std::endl
-                    << " Полис: " << p[i].pol << std::endl
-                    << "---------------------------------------" << std::endl;
+                    << " Полис: " << p[i].pol << std::endl;
+                    std::cout << std::endl << "---------------------------------------------------------------" << std::endl;
             }
             break;
         }
@@ -473,8 +473,8 @@ void sort()
                 std::cout << p[i].fam << " " << p[i].name << " " << p[i].otch << std::endl
                     << " Адрес: " << p[i].adress << " " << std::endl
                     << " Карта: " << p[i].card << std::endl
-                    << " Полис: " << p[i].pol << std::endl
-                    << "---------------------------------------" << std::endl;
+                    << " Полис: " << p[i].pol << std::endl;
+                    std::cout << std::endl << "---------------------------------------------------------------" << std::endl;
             }
             break;
         }
